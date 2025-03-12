@@ -183,28 +183,41 @@ p {
 }
 
 /* Individual Social Colors */
-.social-link.github {
-    background-color: #333;
+.social-link.instagram {
+    background-color: #E1306C;
 }
 
-.social-link.patreon {
-    background-color: #f96854;
-}
-
-.social-link.youtube {
-    background-color: #ff0000;
-}
-
-.social-link.discord {
-    background-color: #7289da;
+.social-link.tiktok {
+    background-color: #000;
 }
 
 .social-link.website {
     background-color: #555;
 }
 
+.social-link.youtube {
+    background-color: #FF0000;
+}
+
+/* Social Icons */
+.social-link.instagram i {
+    color: #fff;
+}
+
+.social-link.tiktok i {
+    color: #fff;
+}
+
+.social-link.website i {
+    color: #fff;
+}
+
 .social-link.email {
     background-color: #c71610;
+}
+
+.social-link.youtube i {
+    color: #fff;
 }
 
 /* Blog Section */
