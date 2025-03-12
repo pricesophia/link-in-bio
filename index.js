@@ -9,29 +9,35 @@ document.addEventListener('DOMContentLoaded', function () {
     const autoplayInterval = 5000; // 5 seconds
     let currentSlide = 0;
     let autoplay;
-
-    // Initialize blog data
-    const blogs = [
-        {
-            title: 'Create a Stunning Animated Navigation Magic Menu',
-            description: 'Welcome to our step-by-step tutorial on creating a stunning animated navigation magic menu using HTML, CSS, and JavaScript!',
-            video: 'https://www.youtube.com/embed/SRShOP9iKRc',
-            thumbnail: 'images/blog1.png'
-        },
-        {
-            title: 'Build a Stylish Password Strength Checker',
-            description: 'Welcome to our step-by-step tutorial on building a sleek and functional Password Strength Checker using HTML, CSS, and JavaScript.',
-            video: 'https://www.youtube.com/embed/gbfoGJLlXgI',
-            thumbnail: 'images/blog2.png'
-        },
-        {
-            title: 'Build a Stunning Creative Portfolio in Just 10 Minutes',
-            description: 'In this video, I will show you how to create a beautiful and modern portfolio website in just 10 minutes!',
-            video: 'https://www.youtube.com/embed/p2_FN9djQNc',
-            thumbnail: 'images/blog3.png'
-        }
-    ];
-
+    
+//  Blog data
+const blogs = [
+    {
+        title: 'Waves & Wanderlust',
+        description: 'A dreamy beachside escape, where the waves kiss the shore, the wind whispers through the air, and adventure awaits with every step.',
+        video: 'https://www.youtube.com/watch?v=m4LmMc1dbww',
+        thumbnail: 'images/sophia-price1.jpg'
+    },
+    {
+        title: 'Cozy Vibes at Home',
+        description: 'A serene and inviting shot taken inside the house, perfect for highlighting the warmth and comfort of home life.',
+        video: 'https://www.youtube.com/watch?v=4SX6zvAoLdc',
+        thumbnail: 'images/sophia-price2.jpg'
+    },
+    {
+        title: 'Beachside Bliss',
+        description: 'A breathtaking moment captured at the beach, with the sun setting in the distance, embodying the calm and beauty of ocean life.',
+        video: 'https://www.youtube.com/watch?v=P3HuVEx_gvk?si',
+        thumbnail: 'images/sophia-price3.jpg'
+    },
+    {
+        title: 'Reflections in the Mirror',
+        description: 'A candid shot captured in front of the mirror, showcasing the beauty of self-reflection and the elegance of simple moments.',
+        video: 'https://www.youtube.com/watch?v=F3uXazxoR-o',
+        thumbnail: 'images/sophia-price4.jpg'
+    },
+];
+    
     // Populate blog carousel
     blogs.forEach((blog, index) => {
         const blogItem = document.createElement('div');
